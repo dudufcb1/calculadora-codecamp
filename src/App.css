@@ -1,0 +1,63 @@
+/** @format */
+.App {
+  width: 100%;
+  height: 100vh;
+  padding-top: 10px;
+  background-color: #1b1b32;
+  font-family: Lato, sans-serif;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.freecodecamp-logo {
+  width: 100%;
+  height: 50px;
+  margin: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.img-logo {
+  height: 40px;
+}
+
+.contenedor-principal {
+  width: 400px;
+  height: 600px;
+  padding: 14px;
+  background-color: #99c9ff;
+  border-radius: 20px;
+  border: 5px solid white;
+}
+
+.fila {
+  margin: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (max-width: 768px) {
+  .contenedor-principal {
+    min-width: 250px;
+    width: 90%; /* Ajusta el ancho para dispositivos más pequeños */
+    height: auto; /* Altura automática para adaptarse al contenido */
+    margin: 10px auto; /* Centra el contenedor */
+  }
+
+  .fila {
+    flex-direction: row; /* Apila los botones verticalmente */
+  }
+
+  .boton-contenedor,
+  .boton-clear {
+    width: 100%; /* Botones ocupan todo el ancho disponible */
+    margin: 10px 0; /* Espaciado entre botones */
+  }
+
+  .input {
+    font-size: 20px; /* Tamaño de fuente más pequeño para la pantalla */
+  }
+}
