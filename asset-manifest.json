@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/calculadora-codecamp/static/css/main.dd6954b6.css",
+    "main.js": "/calculadora-codecamp/static/js/main.7e007287.js",
+    "static/media/fcc_primary_large.png": "/calculadora-codecamp/static/media/fcc_primary_large.922fdeee3b1a1c6ac1f9.png",
+    "index.html": "/calculadora-codecamp/index.html",
+    "main.dd6954b6.css.map": "/calculadora-codecamp/static/css/main.dd6954b6.css.map",
+    "main.7e007287.js.map": "/calculadora-codecamp/static/js/main.7e007287.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dd6954b6.css",
+    "static/js/main.7e007287.js"
+  ]
+}
